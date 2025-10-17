@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation Buttons</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #d3d8de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  padding: 12px 35px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 6px 6px 12px #b9bfc5, -6px -6px 12px #ffffff;
+}
+
+/* Hover Effect */
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: inset 6px 6px 12px rgba(0,0,0,0.2), inset -6px -6px 12px rgba(255,255,255,0.3);
+}
+
+/* Single Colors */
+.blue { background: linear-gradient(145deg, #001f7f, #0066ff); }
+.purple { background: linear-gradient(145deg, #ff00cc, #9900ff); }
+.sky { background: linear-gradient(145deg, #00aaff, #0088ff); }
+.mint { background: linear-gradient(145deg, #6fffd1, #00c1a0); }
+.orange { background: linear-gradient(145deg, #ff5f00, #ff0000); }
+.pink { background: linear-gradient(145deg, #ff4b91, #ff005c); }
+
+/* Gradient Variations */
+.gradient1 { background: linear-gradient(145deg, #6a11cb, #2575fc); }
+.gradient2 { background: linear-gradient(145deg, #f7971e, #ffd200); }
+.gradient3 { background: linear-gradient(145deg, #f953c6, #b91d73); }
+.gradient4 { background: linear-gradient(145deg, #00c6ff, #0072ff); }
+.gradient5 { background: linear-gradient(145deg, #43e97b, #38f9d7); }
+.gradient6 { background: linear-gradient(145deg, #ff9966, #ff5e62); }
+.gradient7 { background: linear-gradient(145deg, #a18cd1, #fbc2eb); }
+.gradient8 { background: linear-gradient(145deg, #8e2de2, #4a00e0); }
+
+/* Neumorphic White Button */
+.white {
+  background: #e0e0e0;
+  color: #333;
+  box-shadow: 6px 6px 12px #b9bfc5, -6px -6px 12px #ffffff;
+}
+
+.white:hover {
+  box-shadow: inset 6px 6px 12px rgba(0,0,0,0.2), inset -6px -6px 12px rgba(255,255,255,0.3);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  color: #555;
+  letter-spacing: 2px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Animation Buttons</h1>
+    <p>Hover and discover to enjoy smooth and modern neumorphic effects!</p>
+
+    <div class="buttons">
+      <button class="btn blue">Read More</button>
+      <button class="btn purple">Read More</button>
+      <button class="btn sky">Read More</button>
+      <button class="btn mint">Read More</button>
+      <button class="btn orange">Read More</button>
+      <button class="btn pink">Read More</button>
+      <button class="btn gradient1">Read More</button>
+      <button class="btn gradient2">Read More</button>
+      <button class="btn gradient3">Read More</button>
+      <button class="btn gradient4">Read More</button>
+      <button class="btn gradient5">Read More</button>
+      <button class="btn gradient6">Read More</button>
+      <button class="btn gradient7">Read More</button>
+      <button class="btn gradient8">Read More</button>
+      <button class="btn white">Read More</button>
+    </div>
+
+    <footer>DEERBUCKS.DESIGNING</footer>
+  </div>
+</body>
+</html>
